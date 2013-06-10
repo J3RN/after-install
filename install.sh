@@ -1,6 +1,10 @@
 # Disclaimer
 echo "This could take a while... Go sleep\n"
 
+# Add ppas
+echo "Adding personal package archives"
+add-apt-repository -y ppa:tiheum/equinox
+
 # Update
 echo "Updating...\n"
 apt-get -y update && apt-get -y upgrade
@@ -15,6 +19,8 @@ apt-get -y install eclipse
 apt-get -y install build-essential
 apt-get -y install gdebi
 apt-get -y install xclip
+apt-get -y install faenza-icon-theme
+apt-get -y install faience-theme
 
 # Download programs from sources
 echo "Getting newer versions...\n"
