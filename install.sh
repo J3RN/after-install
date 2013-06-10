@@ -1,6 +1,10 @@
 # Disclaimer
 echo "This could take a while... Go sleep\n"
 
+# Delete link to examples. Because.
+echo "Deleting link to examples"
+rm ~/examples.desktop
+
 # Add ppas
 echo "Adding personal package archives"
 add-apt-repository -y ppa:tiheum/equinox
@@ -22,6 +26,9 @@ apt-get -y install xclip
 apt-get -y install faenza-icon-theme
 apt-get -y install faience-theme
 apt-get -y install unity-tweak-tool
+
+# Clean up apt
+apt-get clean
 
 # Download programs from sources
 echo "Getting newer versions...\n"
