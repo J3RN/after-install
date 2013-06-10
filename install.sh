@@ -21,6 +21,7 @@ apt-get -y install gdebi
 apt-get -y install xclip
 apt-get -y install faenza-icon-theme
 apt-get -y install faience-theme
+apt-get -y install unity-tweak-tool
 
 # Download programs from sources
 echo "Getting newer versions...\n"
