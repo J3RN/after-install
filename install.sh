@@ -30,6 +30,8 @@ apt-get -y install faenza-icon-theme
 apt-get -y install faience-theme
 apt-get -y install unity-tweak-tool
 apt-get -y install libgconf2-dev
+apt-get -y install gimp
+apt-get -y install vlc
 
 # Clean up apt
 apt-get clean
