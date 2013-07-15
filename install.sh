@@ -32,6 +32,7 @@ apt-get -y install unity-tweak-tool
 apt-get -y install libgconf2-dev
 apt-get -y install gimp
 apt-get -y install vlc
+apt-get -y install python-matplotlib
 
 # Clean up apt
 apt-get clean
