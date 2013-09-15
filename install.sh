@@ -20,6 +20,7 @@ apt-get -y update && apt-get -y upgrade
 echo "\nInstalling some software...\n"
 # Seperate commands for parallel structure
 apt-get -y install git
+apt-get -y install curl
 apt-get -y install vim
 apt-get -y install guake 
 apt-get -y install arduino 
@@ -34,6 +35,13 @@ apt-get -y install libgconf2-dev
 apt-get -y install gimp
 apt-get -y install vlc
 apt-get -y install python-matplotlib
+
+# Install rvm
+echo "\nInstalling RVM, Ruby, Rails\n"
+\curl -L https://get.rvm.io | bash
+source /home/jonathan/.rvm/scripts/rvm
+rvm install ruby
+gem install rails
 
 # Clean up apt
 apt-get clean
