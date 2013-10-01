@@ -27,17 +27,22 @@ apt-get -y install eclipse
 apt-get -y install build-essential
 apt-get -y install libgconf2-dev
 apt-get -y install python-matplotlib
+apt-get -y install php5
+apt-get -y install apache2
+apt-get -y install sqlite3
 
 # CLI Tools
 apt-get -y install gdebi
 apt-get -y install xclip
 apt-get -y install curl
+apt-get -y install sshfs
 
 # Apps
 apt-get -y install guake 
 apt-get -y install unity-tweak-tool
 apt-get -y install gimp
 apt-get -y install vlc
+apt-get -y install irssi
 
 # Aesthetics
 apt-get -y install faenza-icon-theme
@@ -54,7 +59,7 @@ gem install rails
 apt-get clean
 
 # Update Eclipse
-sudo ./updatePrograms.sh
+sudo ./updateEclipse.sh
 
 # Say goodbye
 echo "All finished!\n"
